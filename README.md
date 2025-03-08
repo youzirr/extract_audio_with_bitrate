@@ -17,30 +17,13 @@
 - **Python**：3.6+
 - **依赖工具**：[FFmpeg](https://ffmpeg.org/) 必须已安装并加入系统PATH
 
-## 📥 安装步骤
-
-1. 安装FFmpeg：
-   - **Windows**：使用[winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/)安装：
-     ```powershell
-     winget install Gyan.FFmpeg
-     ```
-   - **macOS**：使用Homebrew安装：
-     ```bash
-     brew install ffmpeg
-     ```
-
-2. 下载脚本：
-   ```bash
-   git clone https://github.com/youzirr/extract_audio_with_bitrate.git
-   cd audio-extractor
-   ```
 
 ## 🎯 使用方法
 
 1. 将需要转换的视频文件放入脚本所在目录
 2. 运行脚本：
    ```bash
-   python audio_extractor.py
+   python extract_audio_with_bitrate.py
    ```
 3. 查看生成的MP3文件（文件名格式：`原文件名_audio_码率.mp3`）
 
