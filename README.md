@@ -31,7 +31,7 @@
 
 2. 下载脚本：
    ```bash
-   git clone https://github.com/yourusername/audio-extractor.git
+   git clone https://github.com/youzirr/extract_audio_with_bitrate.git
    cd audio-extractor
    ```
 
